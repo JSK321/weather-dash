@@ -1,0 +1,12 @@
+.nav {
+    color: white;
+    padding: 20px;
+}
+
+.fas {
+ color: white;
+ background-color: rgb(49, 116, 240);
+ font-size: 20px;
+ padding: 5px;
+ border-radius: 5px;
+}
