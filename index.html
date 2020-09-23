@@ -23,8 +23,9 @@
         <h3>Search for a City:</h3>
         <form id="search">
           <input type="text" id="city-search" placeholder="Press Enter...">
-          <i type="click" class="fas fa-search"></i>
+          <i type="submit" class="fas fa-search"></i>
         </form>
+
         <!-- Render searched cities button here -->
         <div class='cities-view' style="width: 14rem;">
           <ul class="list-group list-group-flush">
@@ -32,6 +33,7 @@
           </ul>
         </div>
       </div>
+      
       <!-- City weather information appears here -->
       <div class="city-weather col-md-9">
         <div class="card-body">
@@ -45,9 +47,9 @@
     </div>
 
     <!-- 5-Day Forecast will appear here -->
-    <div class="row">
+    <div class="row justify-content-end">
       <div class="five-day col-md-2" style="width: 10rem;">
-        <div>
+        <div class ="card-body text-center">
           <p class="fc-date1"></p>
           <p class="fc-weather1"></p>
           <p class="day-forecast-temp1"></p>
@@ -55,7 +57,7 @@
         </div>
       </div>
       <div class="five-day col-md-2" style="width: 10rem;">
-        <div class="card-body">
+        <div class="card-body text-center">
           <p class="fc-date2"></p>
           <p class="fc-weather2"></p>
           <p class="day-forecast-temp2"></p>
@@ -63,7 +65,7 @@
         </div>
       </div>
       <div class="five-day col-md-2" style="width: 10rem;">
-        <div class="card-body">
+        <div class="card-body text-center">
           <p class="fc-date3"></p>
           <p class="fc-weather3"></p>
           <p class="day-forecast-temp3"></p>
@@ -71,7 +73,7 @@
         </div>
       </div>
       <div class="five-day col-md-2" style="width: 10rem;">
-        <div class="card-body">
+        <div class="card-body text-center">
           <p class="fc-date4"></p>
           <p class="fc-weather4"></p>
           <p class="day-forecast-temp4"></p>
@@ -79,7 +81,7 @@
         </div>
       </div>
       <div class="five-day col-md-2" style="width: 10rem;">
-        <div class="card-body">
+        <div class="card-body text-center">
           <p class="fc-date5"></p>
           <p class="fc-weather5"></p>
           <p class="day-forecast-temp5"></p>
